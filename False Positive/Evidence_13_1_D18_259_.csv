@@ -1,0 +1,54 @@
+Case Name:,259_
+Locus:,D18
+Quant:,27
+Pn size:,2
+Pd size:,2
+Dedicible?,NO
+Race:,BLACK
+Known(s) Pn:
+,Person 1,(12; 15)
+Known(s) Pn:
+,No Knowns Pd
+,
+Replicate(s):
+,Replicate 1,12;
+
+
+Genotype Freq:
+,(12; 12),(0.064; 0.064),0.00589312
+,(12; -1),(0.064; 0.936),0.119808
+,(-1; -1),(0.936; 0.936),0.877893
+
+Case:,259_,D18
+
+Numerator:
+
+,HET0:,0.5992,,pC0:,0.96
+,HET1:,0.298,,pC1:,0.035
+,HET2:,0.1028,,pC2:,0.005
+,HOM0:,0.98
+,HOM1:,0.02,,Theta:,0.03
+
+
+Case:,259_,D18
+
+Denominator:
+
+,HET0:,0.5992,,pC0:,0.96
+,HET1:,0.298,,pC1:,0.035
+,HET2:,0.1028,,pC2:,0.005
+,HOM0:,0.98
+,HOM1:,0.02,,Theta:,0.03
+
+
+BLACK
+
+,,LR:,5.51807,,Pn:,0.016889,,Pd:,0.00306067
+
+,LR:,18.1467,,Pn:,0.055541,,Pd:,0.00306067,,(12; 12),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+,LR:,5.51807,,Pn:,0.016889,,Pd:,0.00306067,,(12; -1),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+,LR:,0.264213,,Pn:,0.000808669,,Pd:,0.00306067,,(-1; -1),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+
+
+
+,Time Elapsed:,22.777,Second(s)

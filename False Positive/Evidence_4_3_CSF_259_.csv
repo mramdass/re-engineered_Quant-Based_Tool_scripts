@@ -1,0 +1,54 @@
+Case Name:,259_
+Locus:,CSF
+Quant:,27
+Pn size:,2
+Pd size:,2
+Dedicible?,NO
+Race:,HISPANIC
+Known(s) Pn:
+,Person 1,(10; 11)
+Known(s) Pn:
+,No Knowns Pd
+,
+Replicate(s):
+,Replicate 1,11;
+
+
+Genotype Freq:
+,(11; 11),(0.285; 0.285),0.0873382
+,(11; -1),(0.285; 0.715),0.40755
+,(-1; -1),(0.715; 0.715),0.517338
+
+Case:,259_,CSF
+
+Numerator:
+
+,HET0:,0.6036,,pC0:,0.96
+,HET1:,0.318,,pC1:,0.035
+,HET2:,0.0784,,pC2:,0.005
+,HOM0:,0.9064
+,HOM1:,0.0936,,Theta:,0.03
+
+
+Case:,259_,CSF
+
+Denominator:
+
+,HET0:,0.6036,,pC0:,0.96
+,HET1:,0.318,,pC1:,0.035
+,HET2:,0.0784,,pC2:,0.005
+,HOM0:,0.9064
+,HOM1:,0.0936,,Theta:,0.03
+
+
+HISPANIC
+
+,,LR:,1.28018,,Pn:,0.0785141,,Pd:,0.0613305
+
+,LR:,3.64892,,Pn:,0.22379,,Pd:,0.0613305,,(11; 11),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+,LR:,1.28018,,Pn:,0.0785141,,Pd:,0.0613305,,(11; -1),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+,LR:,0.308449,,Pn:,0.0189174,,Pd:,0.0613305,,(-1; -1),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+
+
+
+,Time Elapsed:,19.9,Second(s)

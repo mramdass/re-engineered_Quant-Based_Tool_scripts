@@ -1,0 +1,62 @@
+Case Name:,259_
+Locus:,D5
+Quant:,27
+Pn size:,2
+Pd size:,2
+Dedicible?,NO
+Race:,CAUCASIAN
+Known(s) Pn:
+,Person 1,(11; 12)
+Known(s) Pn:
+,No Knowns Pd
+,
+Replicate(s):
+,Replicate 1,11;12;
+,Replicate 2,11;12;
+,Replicate 3,11;12;
+
+
+Genotype Freq:
+,(11; 11),(0.281; 0.281),0.0850222
+,(11; 12),(0.281; 0.351),0.197262
+,(11; -1),(0.281; 0.368),0.206816
+,(12; 12),(0.351; 0.351),0.130035
+,(12; -1),(0.351; 0.368),0.258336
+,(-1; -1),(0.368; 0.368),0.142401
+
+Case:,259_,D5
+
+Numerator:
+
+,HET0:,0.6676,,pC0:,0.96
+,HET1:,0.3124,,pC1:,0.035
+,HET2:,0.02,,pC2:,0.005
+,HOM0:,0.98
+,HOM1:,0.02,,Theta:,0.03
+
+
+Case:,259_,D5
+
+Denominator:
+
+,HET0:,0.6676,,pC0:,0.96
+,HET1:,0.3124,,pC1:,0.035
+,HET2:,0.02,,pC2:,0.005
+,HOM0:,0.98
+,HOM1:,0.02,,Theta:,0.03
+
+
+CAUCASIAN
+
+,,LR:,1.59474,,Pn:,0.0724683,,Pd:,0.045442
+
+,LR:,3.46265,,Pn:,0.15735,,Pd:,0.045442,,(11; 11),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+,LR:,1.59474,,Pn:,0.0724683,,Pd:,0.045442,,(11; 12),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+,LR:,0.112167,,Pn:,0.00509708,,Pd:,0.045442,,(11; -1),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+,LR:,2.65757,,Pn:,0.120766,,Pd:,0.045442,,(12; 12),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+,LR:,0.0860875,,Pn:,0.00391199,,Pd:,0.045442,,(12; -1),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+,LR:,9.14357e-06,,Pn:,4.15503e-07,,Pd:,0.045442,,(-1; -1),,1,Uknown(s) Pn,,2,Uknown(s) Pd
+
+
+
+,Time Elapsed:,20.547,Second(s)
