@@ -7,6 +7,7 @@ RACE = ['BLACK', 'CAUCASIAN', 'HISPANIC', 'ASIAN']
 LOCUS = ['D8','D21','D7','CSF','D3','TH01','D13','D16','D2','D19','vWA','TPOX','D18','D5','FGA']
 TD = {}
 DONORS = {}
+CASE = []
  
 
 def getDonors():
@@ -102,11 +103,12 @@ for i in name_files():
     if i.startswith('Evidence_'):
         info = read(i)
         sub_names = i.split("_")
+        CASE.append(int(sub_names[4]))
         TD[(sub_names[2], sub_names[3], sub_names[4])] = info
 
 output = {}
 for key in DONORS:
-    for i in range(1,481):
+    for i in CASE:
         for j in range(1, 5):
             LRS = []
             for k in LOCUS:
@@ -155,4 +157,3 @@ with open('Casework_Results.csv', 'w') as w:
         for j in output[i]:#case
             w.write(str(i) + ',' + str(j) + ',' + str(output[i][j][1]) + ',' + str(output[i][j][2]) + ',' + str(output[i][j][3]) + ',' + str(output[i][j][4]) + ',' + str(min(output[i][j][1], min(output[i][j][2], min(output[i][j][3], output[i][j][4])))) + '\n')
     w.close()
-
